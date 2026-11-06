@@ -1,0 +1,132 @@
+/*Sets the body to a 0 margin, bright orange background, green color text, a font family, font-size, and line-height*/
+body {
+    margin: 0;
+    background-color: rgb(255, 206, 99);
+    color: rgb(56, 155, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*Sets h1, h2, and h3 to the font-family Georgia, Times New Roman, and a line height of 1.2*/
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+
+}
+/*Sets h1 to a font-size of 3rem, text color of light pink, 0 margin, and 1px letter-spacing*/
+h1 {
+    font-size: 3rem;
+    color: lightpink;
+    margin: 0;
+    letter-spacing: 1px;
+}
+/*Sets h2 to a 2.5 rem font-size, darker pink text color, a 2x blue border below the "About Me" text, a 6 px padding from the bottom and 40 px margin from the top*/
+h2 {
+    font-size: 2.5rem;
+    color: rgb(236, 142, 157);
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+/*Sets h3 text to palevioletred*/
+h3 {
+    color: palevioletred;
+}
+
+/*Gives paragraphs 0 0 14px margins. (Spacing between text)*/
+p {
+    margin: 0 0 14px;
+}
+
+/*Gives intro class a 1.2 rem font-size, italic font-style, and bold font-weight*/
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Gives the word in strong a bold font-weight and text color of darkblue*/
+strong {
+    font-weight: bold;
+    color: darkblue;
+}
+/*Changes how the youtube link looks like when hovered over. Removes underline when being hovered.*/
+a:hover {
+    text-decoration: none;
+}
+/*Gives site-header class a black background color, white text color, 40px 20px padding, and center alignment*/
+.site-header {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/*Gives the header a gray text shadow of 2px 2px 4px*/
+.site-header h1 {
+    text-shadow: 2px 2px 4px rgba(241, 239, 239, 0.35);
+}
+
+/*Gives the paragraph set to the tagline class a 8px margin, 0 on the left, right, and bottom, turns all letters to uppercase, 2px spacing, and 0.95 rem size*/
+.tagline {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+}
+
+/*Gives the whole page a max width of 760 px, 0 margin, and padding of 0 20px 40px*/
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+/*Sets the card class to a black background, a 6px dark blue border, gives corner roundness of 12px, 24 padding, 32 px margin, max width of 500, and a box shadow*/
+.card {
+    background-color: rgb(0, 0, 0);
+    border: 6px solid darkblue;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 32px 0;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(43, 43, 43, 0.12);
+}
+
+/*Sets the header inside the card a 0 0 12px margin and sets font-size to 1.5 rem*/
+.card h3 {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
+}
+/*Adds a button to the "My email," makes it pink with 12px 24px padding, 8 px border-radius, 8 px top margin, and no text-decoration*/
+.button {
+    display: inline-block;
+    background-color: rgb(255, 99, 203);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+/*Makes the button when you hover over it gray instead of pink*/
+.button:hover {
+    background-color: rgb(221, 230, 225);
+}
+/*Sets the list to a square list and a left padding of 24px*/
+ul {
+    list-style-type: square;
+    padding-left: 24px;
+}
+/*Sets the bottom margins between the text inside the card 16px*/
+li {
+    margin-bottom: 16px;
+}
+/*Sets the footer to center alignment, black text, 1.2 rem font size, 2px solid top border, and 15px padding*/
+.site-footer {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    border-top: 2px solid;
+    padding: 15px;
+}
